@@ -50,7 +50,7 @@ public class ArithmeticCalculator {
 					 System.out.print("Result : " +res);
 					 break;
 					   
-				     case '5':
+				     case '5':System.out.println("--Exit--");
 					 System.exit(0);
 					 break;
 					 default : System.out.print("Wrong Choice.....\n");
@@ -64,10 +64,7 @@ public class ArithmeticCalculator {
 			    break;
 			
 			}
-
 			}while(choice!=5);
-		}
-	    
-	}
-	
+		}   
+	}	
 }
